@@ -1,22 +1,35 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-% To adjust the margin of the page
-\usepackage[a4paper]{geometry}
-%Rescaling the Margin
-\geometry{left = 1in, right= 1in, top = 1.25in, bottom = 1.25in, headheight= 0.5in}
-\usepackage{graphicx}
-\graphicspath{{zfigures/}{../zfigures/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Time-stamp: <2018-09-10 21:56:28 (Damodar)>         %
+% Author: Damodar Rajbhandari (dphysicslog@gmail.com) %
+% Site: physicslog.com and damodarrajbhandari.com.np  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Notes for the Physics GRE to Ace}
-\author{Damodar Rajbhandari}
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc} %utf 8 encoding
+
+\usepackage{amsmath} % for ams style maths
+\usepackage{amsfonts} % for ams style fonts
+\usepackage{amssymb}  % for ams mathematical symbols
+
+\usepackage[a4paper]{geometry} % To adjust the margin of the page
+\geometry{left = 1in, right= 1in, top = 1.25in, bottom = 1.25in, headheight= 0.5in} %Rescaling the Margin
+
+\usepackage{graphicx} % To insert graphics in the document
+\graphicspath{{figures/}{../figures/}} % Justify the graphics path
+
+\usepackage{hyperref} % To make hyperlink
+
+\usepackage{indentfirst} % makes indentation in the starting of every paragraph
+
+\title{Notes for the Physics GRE to Ace} % Title of the document
+\author{Damodar Rajbhandari \\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} \\ \href{https://www.physicslog.com}{physicslog.com}} % Author of this document
 
 \begin{document}
-\maketitle
 
-\quad pGRE stands for Physics subject test for Graduate Record Examination (GRE). This test is designed and taken by Educational Testing Service (ETS). The test consists of 100 questions with 5 choices, and you have 2 hours and 50 minutes to do it. This means, you only have an average of 1.7 minutes per problem. This is why many test takers found it's difficult. But, I want to note here from the very beginning, there are some tricks that makes calculations much simpler and which do not require special knowledge. 
+\maketitle % Retrieving the title informations like title, author and date.
+
+pGRE stands for Physics subject test for Graduate Record Examination (GRE). This test is designed and taken by Educational Testing Service (ETS). The test consists of 100 questions with 5 choices, and you have 2 hours and 50 minutes to do it. This means, you only have an average of 1.7 minutes per problem. This is why many test takers found it's difficult. But, I want to note here from the very beginning, there are some tricks that makes calculations much simpler and which do not require special knowledge. 
 
 Unlike general GRE and TOEFL, pGRE is a paper-based test. And, it yields a total score on a 200 to 900 score scale in 10-point increments. Most of the questions can be answered on the basis of how much knowledge and understanding  do you have on your first three years of undergraduate physics. You must use International system (SI) of units. You are not allowed to use calculator during the test. But, the test center will provide you a table sheet of information representing various physical constant and a few conversion factors, log book, pencils, and test book along with the bubble answer sheets. Do not worry about you cannot do calculations without calculator because it is enough to know or guess an answer out of five from your approximate numerical value. Even though pGRE will test your physics solving brilliance but it may also test your ability on certain mathematical method and their applications in physics.  We are lucky that nothing is subtracted from a score if you answer a question incorrectly or leave it blank. But, in the past, they used to penalize incorrect answer by subtracting one quarter per incorrect answer from your score.
 
@@ -28,13 +41,13 @@ Let me give you some insights of the pGRE syllabus by ETS, and notes that I have
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Classical Mechanics (20\%)}
 
-\quad It includes kinematics, Newton's laws, work and energy, oscillatory motion, rotational motion about a fixed axis, dynamics of systems of particles, central forces and celestial mechanics, three-dimensional particle dynamics, Lagrangian and Hamiltonian formalism, non-inertial reference frames, and elementary topics in fluid dynamics.
+It includes kinematics, Newton's laws, work and energy, oscillatory motion, rotational motion about a fixed axis, dynamics of systems of particles, central forces and celestial mechanics, three-dimensional particle dynamics, Lagrangian and Hamiltonian formalism, non-inertial reference frames, and elementary topics in fluid dynamics.
 
 \subsection{Kinematics}
 
 \subsubsection{Linear Motion in the inertial frame of reference}
 
-\textbf{Average velocity}
+\noindent\textbf{Average velocity}
 \begin{align}
 v = \frac{\Delta x}{\Delta t} = \frac{x_{2} - x_{1}}{t_{2} - t_{1}}
 \end{align}
@@ -54,7 +67,7 @@ v^{2} &= u^{2} + 2as \\
 
 \subsubsection{Uniform circular motion}
 
-\textbf{Centripetal acceleration}
+\noindent\textbf{Centripetal acceleration}
 \begin{align}
 a = \frac{v^{2}}{r}
 \end{align}
@@ -94,7 +107,7 @@ a = r\omega^{2}
 
 \subsection{Newton's laws of motion}
 
-\textbf{First law:} A body continues in its state of rest or \emph{uniform motion} unless any external \emph{unbalanced force} act upon it.
+\noindent\textbf{First law:} A body continues in its state of rest or \emph{uniform motion} unless any external \emph{unbalanced force} act upon it.
 \\
 \textbf{Second law:} The net force \emph{on} a body is proportional to its rate of change of \emph{linear momentum}.
 \begin{align}
@@ -108,50 +121,50 @@ F_{AB} = - F_{BA}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Electromagnetism (18\%)}
 
-\quad It includes electrostatics, current and DC circuits, magnetic fields in free space, Lorentz force, induction, Maxwell's equations and their applications, electromagnetic waves, AC circuits, and magnetic and electric fields in matter.
+It includes electrostatics, current and DC circuits, magnetic fields in free space, Lorentz force, induction, Maxwell's equations and their applications, electromagnetic waves, AC circuits, and magnetic and electric fields in matter.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Quantum Mechanics (12\%)}
 
-\quad It includes fundamental concepts, solutions of the Schr\"{o}dinger equation (like square wells, harmonic oscillators and hydrogen atoms), spin, angular momentum, wave function, symmetry, and elementary perturbation theory.
+It includes fundamental concepts, solutions of the Schr\"{o}dinger equation (like square wells, harmonic oscillators and hydrogen atoms), spin, angular momentum, wave function, symmetry, and elementary perturbation theory.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Thermodynamics and Statistical Mechanics (10\%)}
 
-\quad It includes the laws of thermodynamics, thermodynamic processes, equations of state, ideal gases, kinetic theory, ensembles, statistical concepts, calculation of thermodynamics quantities, thermal expansion, and heat transfer.
+It includes the laws of thermodynamics, thermodynamic processes, equations of state, ideal gases, kinetic theory, ensembles, statistical concepts, calculation of thermodynamics quantities, thermal expansion, and heat transfer.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Atomic Physics (10\%)}
 
-\quad It includes properties of electrons, Bohr's model, energy quantization, atomic structure, atomic spectra, selection rules, black-body radiation, X-rays, atoms in electric fields, and atoms in magnetic fields.
+It includes properties of electrons, Bohr's model, energy quantization, atomic structure, atomic spectra, selection rules, black-body radiation, X-rays, atoms in electric fields, and atoms in magnetic fields.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Optics and wave phenomena (9\%)}
 
-\quad It includes wave properties, superposition, interference, diffraction, geometrical optics, polarization, and Doppler effect.
+It includes wave properties, superposition, interference, diffraction, geometrical optics, polarization, and Doppler effect.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Specialized topics (9\%)}
 
-\quad It includes Nuclear physics (e.g., nuclear properties, radioactive decay, fission reactions, and fusion reactions), Particle physics (e.g., fundamental properties of elementary particles), Condensed Matter physics (e.g., crystal structure, x-ray diffraction, thermal properties, electron theory of metals, semiconductors, and superconductors), and Miscellaneous (e.g., Astrophysics, Mathematical methods, and Computer applications). 
+It includes Nuclear physics (e.g., nuclear properties, radioactive decay, fission reactions, and fusion reactions), Particle physics (e.g., fundamental properties of elementary particles), Condensed Matter physics (e.g., crystal structure, x-ray diffraction, thermal properties, electron theory of metals, semiconductors, and superconductors), and Miscellaneous (e.g., Astrophysics, Mathematical methods, and Computer applications). 
 
 \subsection{Mathematical methods}
 
-\quad It includes single and multivariate calculus, co-ordinate systems (rectangular, cylindrical and spherical), vector algebra and vector differential operators, Fourier series, partial differential equations, boundary value problems, matrices and determinants, and function of complex variables.
+It includes single and multivariate calculus, co-ordinate systems (rectangular, cylindrical and spherical), vector algebra and vector differential operators, Fourier series, partial differential equations, boundary value problems, matrices and determinants, and function of complex variables.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Special Relativity (6\%)}
 
-\quad It includes introductory concepts of relativity, simultaneity, energy and momentum, four-vectors, Lorentz transformation, velocity addition, time dilation, and length contraction.
+It includes introductory concepts of relativity, simultaneity, energy and momentum, four-vectors, Lorentz transformation, velocity addition, time dilation, and length contraction.
 
 \section{Laboratory methods (6\%)}
 
-\quad It includes data and error analysis, electronics, instrumentation, radiation detection, counting statistics, interaction of charged particles with matter, lasers and optical interferometers, dimensional analysis, and fundamental applications of probability and statistics.
+It includes data and error analysis, electronics, instrumentation, radiation detection, counting statistics, interaction of charged particles with matter, lasers and optical interferometers, dimensional analysis, and fundamental applications of probability and statistics.
 
 
 \end{document}
