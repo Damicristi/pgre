@@ -9,7 +9,7 @@ License: You are restricted to change the author name as yours during your
 modification. But, you can add your name at \thanks{}, the step is shown below:
 
 
-\author{Damodar Rajbhandari\thanks{ {}{Your name} has contributed to this work.}\\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} 
+\author{Damodar Rajbhandari\thanks{ Your name has contributed to this work.}\\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} 
 \\ \href{https://www.physicslog.com}{physicslog.com}} % Author of this document
 
 
