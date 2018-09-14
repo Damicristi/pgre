@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.28)  14 SEP 2018 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.28)  14 SEP 2018 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,16 +697,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
  [2] [3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./pgre-notes-damodar.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `pgre-notes-damodar.out' has not changed.
 (rerunfilecheck)             Checksum: 1F4B3ADD34AC9D262257E9DA6C9D5109;1146.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
  6756 strings out of 493029
@@ -725,7 +725,7 @@ fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on pgre-notes-damodar.pdf (6 pages, 120168 bytes).
+Output written on pgre-notes-damodar.pdf (6 pages, 120105 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
