@@ -1,15 +1,16 @@
-\contentsline {section}{\numberline {1}Classical Mechanics (20\%)}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Kinematics}{2}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}Linear Motion in the inertial frame of reference}{2}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Uniform circular motion}{3}{subsubsection.1.1.2}
+\contentsline {section}{\numberline {1}Classical Mechanics (20\%)}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Kinematics}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Linear Motion in the inertial frame of reference}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Uniform circular motion}{4}{subsubsection.1.1.2}
 \contentsline {subsection}{\numberline {1.2}Newton's laws of motion}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Confused words in the Classical Mechanics}{4}{subsection.1.3}
-\contentsline {section}{\numberline {2}Electromagnetism (18\%)}{4}{section.2}
-\contentsline {section}{\numberline {3}Quantum Mechanics (12\%)}{4}{section.3}
+\contentsline {subsection}{\numberline {1.3}Frictional Force}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Confused words in the Classical Mechanics}{5}{subsection.1.4}
+\contentsline {section}{\numberline {2}Electromagnetism (18\%)}{5}{section.2}
+\contentsline {section}{\numberline {3}Quantum Mechanics (12\%)}{5}{section.3}
 \contentsline {section}{\numberline {4}Thermodynamics and Statistical Mechanics (10\%)}{5}{section.4}
 \contentsline {section}{\numberline {5}Atomic Physics (10\%)}{5}{section.5}
-\contentsline {section}{\numberline {6}Optics and wave phenomena (9\%)}{5}{section.6}
-\contentsline {section}{\numberline {7}Specialized topics (9\%)}{5}{section.7}
-\contentsline {subsection}{\numberline {7.1}Mathematical methods}{5}{subsection.7.1}
-\contentsline {section}{\numberline {8}Special Relativity (6\%)}{5}{section.8}
-\contentsline {section}{\numberline {9}Laboratory methods (6\%)}{5}{section.9}
+\contentsline {section}{\numberline {6}Optics and wave phenomena (9\%)}{6}{section.6}
+\contentsline {section}{\numberline {7}Specialized topics (9\%)}{6}{section.7}
+\contentsline {subsection}{\numberline {7.1}Mathematical methods}{6}{subsection.7.1}
+\contentsline {section}{\numberline {8}Special Relativity (6\%)}{6}{section.8}
+\contentsline {section}{\numberline {9}Laboratory methods (6\%)}{6}{section.9}
