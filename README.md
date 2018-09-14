@@ -3,6 +3,8 @@ So, I have taken an effort to share all the important guidelines that I will lea
 (08 Sept to Oct 26, 2018) for my own pGRE test. This means I have planned to write this test on Oct 27.
 To those who are reading my note, BEST OF LUCK ON YOUR TEST!
 
+<b>Forum:</b> You can join our discussion forum at [https://gitter.im/PGRE-Notes-by-Damodar/Lobby](gitter.im/PGRE-Notes-by-Damodar/Lobby). I want you to enjoy your stay here as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in here.
+
 <b>License:</b> You are restricted to change the author name as yours during your 
 modification. But, you can add your name at \thanks{}, the step is shown below:
 
