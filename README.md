@@ -5,9 +5,9 @@ To those who are reading my note, BEST OF LUCK ON YOUR TEST!
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
-<b>Suggestion</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
+<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
 
-<b>License:</b> You are restricted to change the author name as yours during your 
+<b>Copyright license:</b> You are restricted to change the author name as yours during your 
 modification. But, you can add your name at \thanks{}, the step is shown below:
 
 
