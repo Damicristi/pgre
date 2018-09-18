@@ -3,7 +3,7 @@ So, I have taken an effort to share all the important guidelines that I will lea
 (08 Sept to Oct 26, 2018) for my own pGRE test. This means I have planned to write this test on Oct 27.
 To those who are reading my note, BEST OF LUCK ON YOUR TEST!
 
-<b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
+<b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). You will find all the past questions' solutions. I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
 
