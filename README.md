@@ -7,7 +7,7 @@ To those who are reading my note, BEST OF LUCK ON YOUR TEST!
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
 
-<b>Support my work:</b> I'm hoping to rely on loyal readers, rather than erratic ads. Click the Donate button and support this project. Thank you!
+<b id="donate">Support my work:</b> I'm hoping to rely on loyal readers, rather than erratic ads. Click the Donate button and support this project. Thank you!
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
