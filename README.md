@@ -17,8 +17,8 @@ To those who are reading my note, BEST OF LUCK ON YOUR TEST!
 <img alt="" border="3" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="30" height="15">
 </form>
 </center>
-<b>Copyright license:</b> You are restricted to change the author name as yours during your 
-modification. But, you can add your name at \thanks{}, the step is shown below:
+<b>Copyright license:</b> You are restricted by copyright to change the author name as yours during your 
+modification in [Notes for Physics GRE to Ace](https://github.com/Damicristi/pgre/blob/master/pgre-notes-damodar.pdf). But, you can add your name at \thanks{}, the step is shown below:
 
 
 \author{Damodar Rajbhandari\thanks{ Your name has contributed to this work.}\\\\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} 
