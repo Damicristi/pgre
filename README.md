@@ -2,8 +2,6 @@
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
-<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
-
 <b id="donate">Support my work:</b> I'm hoping to rely on loyal readers, rather than erratic ads. Click the Donate button and support this project. Thank you!
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -14,6 +12,10 @@
 <img alt="" border="3" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="30" height="15">
 </form>
 </center>
+
+<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
+
+
 <b>Copyright license:</b> You are restricted by copyright to change the author name as yours during your 
 modification in the [Notes for Physics GRE to Ace](https://github.com/Damicristi/pgre/blob/master/pgre-notes-damodar.pdf). But, you can add your name at \thanks{}, the step is shown below:
 
