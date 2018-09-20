@@ -1,7 +1,5 @@
 <b>Author voice:</b> BEST OF LUCK ON YOUR TEST!
 
-<b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
-
 <b id="donate">Support my work:</b> I'm hoping to rely on loyal readers, rather than erratic ads. Click the Donate button and support this project. Thank you!
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -12,6 +10,8 @@
 <img alt="" border="3" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="30" height="15">
 </form>
 </center>
+
+<b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
 
