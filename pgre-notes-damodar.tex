@@ -12,6 +12,11 @@
 \usepackage{amsfonts} % for ams style fonts
 \usepackage{amssymb}  % for ams mathematical symbols
 
+% For equation highlighting!!!
+\usepackage{xcolor}
+\usepackage{soul}
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+
 \usepackage[a4paper]{geometry} % To adjust the margin of the page
 \geometry{left = 1in, right= 1in, top = 1.25in, bottom = 1.25in, headheight= 0.5in} %Rescaling the Margin
 
@@ -74,7 +79,7 @@ I want to note here, you need to memorize some important values which will not b
 \item 3$\times$10$^{\text{-3}}$ m.K -Wien's Law coefficient
 \end{itemize}
 
-Let's get started from the notes that I have taken for my pGRE test. 
+Let's get started from the notes that I have taken for my pGRE test. I will use the convention of numbering on for the equation that is worth to memorize for the test.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Classical Mechanics (20\%)}
@@ -86,15 +91,22 @@ It includes kinematics, Newton's laws, work and energy, oscillatory motion, rota
 \subsubsection{Linear Motion in the inertial frame of reference}
 
 \noindent\textbf{Average velocity}
-\begin{align}
+\begin{align*}
 v = \frac{\Delta x}{\Delta t} = \frac{x_{2} - x_{1}}{t_{2} - t_{1}}
-\end{align}
+\end{align*}
 \\
 \textbf{Instantaneous velocity}
-\begin{align}
+\begin{align*}
 v = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt} = v(t)
-\end{align}
+\end{align*}
 \\
+\textbf{Acceleration}
+\begin{align*}
+a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{dv}{dt} = a(t)
+\end{align*}
+
+If acceleration is zero then, the velocity will be constant. Likewise, if velocity is constant then, acceleration will be zero.
+\\ 
 \textbf{Kinematic equations of motion under constant acceleration: SUVAT rule}
 \begin{align}
 v &= u + at\\
@@ -105,24 +117,33 @@ v^{2} &= u^{2} + 2as \\
 
 \subsubsection{Projectile motion}
 
-To solve projectile motion related problems, we only need equations of motion for \emph{two dimension}. 
+To solve projectile motion related problems, we only need equations of motion for \emph{two dimensions}. This is because if you observe an object moving in the projectile motion, you will only see two components to study this motion. But I want to aware you this is not true for an object which is moving in a curvy way (or, approximately zigzag way). For example, boomerang. So, for the projectile motion, we only need is
+
+\begin{align*}
+\text{in $x$-axis:\quad} x(t_{1}) &= x(t_{0}) + u_{x}t_{1} \\
+\text{, and in $y$-axis:\quad} y(t_{1}) &= y(t_{0}) + u_{y}t_{1} \mathcolorbox{lightgray}{ - \frac{1}{2}g t^{2}_{1}}
+\end{align*}
+where $u_{i}$ refers to initial velocity in $i$-axis. In this type of motion, we assume an object will only falling under the influence of gravity so, we have additional term which is highlighted by gray color. In order to have mathematically correct equation, we also need negative sign in-front of it which suggest us, we need to change the direction of gravity along with the $y$-axis direction. 
 
 \subsubsection{Uniform circular motion}
 
-\noindent\textbf{Centripetal acceleration}
-\begin{align}
+The most simplest form of an orbit is circular path in-which its acceleration vector is decomposed into radial and tangential components. If its tangential acceleration is zero which means its tangential velocity is constant then, we can have uniform circular motion about the center of circle. So, there must be radially inward force acting on the object which we called as centripetal force. Thus, it keeps an object moving in a circular path with constant speed\footnote{We use ``speed" instead of velocity because we consider our velocity to be constant that means we don't need to deal with the direction of this velocity. But note it, its magnitude play a very crucial role to be in a circular path.}. But, keep in mind that its radial acceleration is non-zero. 
+\newpage 
+
+\noindent\textbf{Radial or centripetal acceleration}
+\begin{align*}
 a = \frac{v^{2}}{r}
-\end{align}
+\end{align*}
 \\
 \textbf{Angle}
-\begin{align}
+\begin{align*}
 \theta = \frac{\text{arc}}{\text{radius}}
-\end{align}
+\end{align*}
 \\
 \textbf{Angular velocity}
-\begin{align}
+\begin{align*}
 \omega = \lim_{\Delta t \to 0}\frac{\Delta \theta}{\Delta t}
-\end{align}
+\end{align*}
 \\
 \textbf{Relation of v and $\omega$}
 \begin{align}
@@ -135,9 +156,9 @@ a = r\omega^{2}
 \end{align}
 \\
 \textbf{Angular acceleration}
-\begin{align}
+\begin{align*}
 \alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}
-\end{align}
+\end{align*}
 \\
 \textbf{Rotational equation of motion under constant angular acceleration}
 \begin{align}
@@ -152,14 +173,14 @@ a = r\omega^{2}
 \noindent\textbf{First law:} A body continues in its state of rest or \emph{uniform motion} unless any external \emph{unbalanced force} act upon it.
 \\
 \textbf{Second law:} The net force \emph{on} a body is proportional to its rate of change of \emph{linear momentum}.
-\begin{align}
+\begin{align*}
 F = \frac{dp}{dt} = ma
-\end{align}
+\end{align*}
 \\
 \textbf{Third law:} When a particle A exerts a force on another particle B (i.e. $F_{AB}$), B simultaneously exerts a force on A (i.e. $F_{BA}$) with the \emph{same magnitude} in the \emph{exactly opposite direction}.
-\begin{align}
+\begin{align*}
 F_{AB} = - F_{BA}
-\end{align}
+\end{align*}
 
 \subsection{Frictional Force}
 
