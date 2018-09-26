@@ -16,6 +16,7 @@
 \usepackage{xcolor}
 \usepackage{soul}
 \newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+\DeclareRobustCommand{\hlcyan}[1]{{\sethlcolor{cyan}\hl{#1}}}
 
 \usepackage[a4paper]{geometry} % To adjust the margin of the page
 \geometry{left = 1in, right= 1in, top = 1.25in, bottom = 1.25in, headheight= 0.5in} %Rescaling the Margin
@@ -90,24 +91,24 @@ It includes kinematics, Newton's laws, work and energy, oscillatory motion, rota
 
 \subsubsection{Linear Motion in the inertial frame of reference}
 
-\noindent\textbf{Average velocity}
+\subsubsection*{Average velocity}
 \begin{align*}
 v = \frac{\Delta x}{\Delta t} = \frac{x_{2} - x_{1}}{t_{2} - t_{1}}
 \end{align*}
-\\
-\textbf{Instantaneous velocity}
+
+\subsubsection*{Instantaneous velocity}
 \begin{align*}
 v = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt} = v(t)
 \end{align*}
-\\
-\textbf{Acceleration}
+
+\subsubsection*{Acceleration}
 \begin{align*}
 a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{dv}{dt} = a(t)
 \end{align*}
 
 If acceleration is zero then, the velocity will be constant. Likewise, if velocity is constant then, acceleration will be zero.
-\\ 
-\textbf{Kinematic equations of motion under constant acceleration: SUVAT rule}
+
+\subsubsection*{Kinematic equations of motion under constant acceleration: SUVAT rule}
 \begin{align}
 v &= u + at\\
 (x - x_{0}) = s &= ut + \frac{1}{2}at^{2} \\
@@ -120,53 +121,60 @@ v^{2} &= u^{2} + 2as \\
 To solve projectile motion related problems, we only need equations of motion for \emph{two dimensions}. This is because if you observe an object moving in the projectile motion, you will only see two components to study this motion. But I want to aware you this is not true for an object which is moving in a curvy way (or, approximately zigzag way). For example, boomerang. So, for the projectile motion, we only need is
 
 \begin{align*}
-\text{in $x$-axis:\quad} x(t_{1}) &= x(t_{0}) + u_{x}t_{1} \\
-\text{, and in $y$-axis:\quad} y(t_{1}) &= y(t_{0}) + u_{y}t_{1} \mathcolorbox{lightgray}{ - \frac{1}{2}g t^{2}_{1}}
+\text{in $x$-axis:\quad} x(t_{1}) &= x(t_{0}) + \mathcolorbox{cyan}{u_{x}}t_{1} \\
+\text{, and in $y$-axis:\quad} y(t_{1}) &= y(t_{0}) + \mathcolorbox{cyan}{u_{y}}t_{1} \mathcolorbox{lightgray}{ - \frac{1}{2}g t^{2}_{1}}
 \end{align*}
-where $u_{i}$ refers to initial velocity in $i$-axis. In this type of motion, we assume an object will only falling under the influence of gravity so, we have additional term which is highlighted by gray color. In order to have mathematically correct equation, we also need negative sign in-front of it which suggest us, we need to change the direction of gravity along with the $y$-axis direction. 
+where \hlcyan{$u_{i}$ refers to initial velocity in $i$-axis}. In this type of motion, we assume an object will only falling under the influence of gravity so, we have additional term which is highlighted by gray color. In order to have mathematically correct equation, we also need negative sign in-front of it which suggest us, we need to change the direction of gravity along with the $y$-axis direction. 
 
 \subsubsection{Uniform circular motion}
 
-The most simplest form of an orbit is circular path in-which its acceleration vector is decomposed into radial and tangential components. If its tangential acceleration is zero which means its tangential velocity is constant then, we can have uniform circular motion about the center of circle. So, there must be radially inward force acting on the object which we called as centripetal force. Thus, it keeps an object moving in a circular path with constant speed\footnote{We use ``speed" instead of velocity because we consider our velocity to be constant that means we don't need to deal with the direction of this velocity. But note it, its magnitude play a very crucial role to be in a circular path.}. But, keep in mind that its radial acceleration is non-zero. 
-\newpage 
+The most simplest form of an orbit is circular path in-which its acceleration vector is decomposed into radial and tangential components. If its tangential acceleration is zero which means its tangential velocity is constant then, we can have uniform circular motion about the center of circle.  This means if you see tangential velocity be constant then, you can think of the problem is related to circular motion. There must be radially inward force acting on the object which we called as centripetal force. Thus, it keeps an object moving in a circular path with constant speed\footnote{We use ``speed" instead of velocity because we consider our velocity to be constant that means we don't need to deal with the direction of this velocity. Because whatever the direction, its magnitude of the velocity remains same. But note it, its magnitude play a very crucial role to be in a circular path.}. But, keep in mind that its radial acceleration is non-zero.
 
-\noindent\textbf{Radial or centripetal acceleration}
+\subsubsection*{Radial or centripetal acceleration}
 \begin{align*}
 a = \frac{v^{2}}{r}
 \end{align*}
-\\
-\textbf{Angle}
+
+\subsubsection*{Angle}
 \begin{align*}
 \theta = \frac{\text{arc}}{\text{radius}}
 \end{align*}
-\\
-\textbf{Angular velocity}
+
+\subsubsection*{Angular velocity}
 \begin{align*}
 \omega = \lim_{\Delta t \to 0}\frac{\Delta \theta}{\Delta t}
 \end{align*}
-\\
-\textbf{Relation of v and $\omega$}
+
+\subsubsection*{Relation of v and $\omega$}
 \begin{align}
 v = r\omega
 \end{align}
-\\
-\textbf{Relation of a and $\omega$}
+
+\subsubsection*{Relation of a and $\omega$}
 \begin{align}
 a = r\omega^{2}
 \end{align}
-\\
-\textbf{Angular acceleration}
+
+\subsubsection*{Angular acceleration}
 \begin{align*}
 \alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}
 \end{align*}
-\\
-\textbf{Rotational equation of motion under constant angular acceleration}
+
+\subsubsection*{Rotational equation of motion under constant angular acceleration}
 \begin{align}
 \omega &= \omega_{0} + \alpha t \\
 \theta &= \omega_{0}t + \frac{1}{2}\alpha t^{2} \\
 \omega^{2} &= \omega_{0}^{2} + 2\alpha \theta \\
 \theta &= \frac{1}{2}(\omega_{0} + \omega)t
 \end{align}
+
+\subsubsection*{Centripetal or radial force}
+\begin{align}
+F_{\text{radial}} = \frac{mv^{2}}{r}
+\end{align}
+
+If you see any problem related to circular motion then, any force (i.e. gravitational force or magnetic force) can be equal to centripetal force. For uniform magnetic field which is perpendicular to the direction of motion of a particle then, its tangential velocity will be constant and can be considered the problem of circular motion.
+
 
 \subsection{Newton's laws of motion}
 
@@ -189,21 +197,57 @@ F_{f} = \mu \times F_{N}
 \end{align}
 
 where, $F_{f}$ refers to frictional force, $F_{N}$ refers to normal force, and $\mu$ refers to coefficient of the friction.
-\\
-\textbf{Tips:} 
-\begin{itemize}
 
+\subsubsection*{Tips}
+
+\begin{itemize}
 \item When interactions between the blocks become important, for example when they exert forces on one another through friction, then we must usually treat them as independent objects.
 
 \item If one block of mass ``m" is sits on the top of the another block of mass ``M", and the blocks don't slip then, two bodies are behaving as one with mass of (m+M).  This means, $\mu$ depends on the combination of ``m" and ``M", rather than ``m" or ``M" individually. Also, both the blocks will experience the same acceleration. This makes our problem-solving time faster because we will only use the above concepts and Newton's second law. But not the free body diagram procedure which is actually time-consuming.
 
+\item We change physical quantities in the form of components consists of $sin$ and $cos$. So, we need to remember that at the angle of $45^{\circ}$, $sin(45^{\circ}) = cos(45^{\circ})$ which will make our calculation much simpler.
+
+\item If a spherical or cylindrical object move by rolling without slipping then, frictional force is responsible for that. 
+
 \end{itemize}
 
-\subsection{Confused words in the Classical Mechanics}
+\subsection{Energy}
+
+The most important part of the physical quantity called energy is its conservation law which helps to solve many problems related to it. And this says: ``\emph{Energy neither be created nor be destroyed, but can be \emph{transform} from one form to another} (for e.g. kinetic to potential)."
+
+\subsubsection{Energy conservation for conservative force}
+
+If an object is acted on only by \emph{conservative} forces (i.e. the work done by the force is independent of path. for e.g. gravitational, magnetic, electrical, spring force and etc) then, the sum of the kinetic and potential energies always remains \emph{constant} along the object's path. i.e. E$_\text{initial}$ = E$_\text{final}$.
+
+\subsubsection{Energy conservation for non-conservative force}
+
+For non-conservative force, E$_\text{initial}$ $\neq$ E$_\text{final}$. So, we need to add extra term in which energy is converted into another form. i.e. E$_\text{initial}$ + W$_\text{other}$ = E$_\text{final}$ where W$_\text{other}$ is the work done by non-conservative force. This is we called as \emph{work-energy theorem}. The most common example of the non-conservative force is frictional force.
+
+\subsubsection*{Tips}
+\begin{itemize}
+\item Use \emph{conservation of energy}, when we need to calculate how fast (i.e. velocity ?) and how far (i.e. position ?) something goes. Because this law only uses kinetic energy (which depend on velocity), and potential energy (which depend on positions).
+\item Use \emph{Kinematics}, when we need to calculate how much time something takes. Because the position and velocity is explicitly a function of time.
+\end{itemize}
+So, the right choice from these can helps us to solve the problem very fast.
+
+\subsubsection{Types of energies}
+The most common types of energies are:
+\begin{align}
+\text{Translation kinetic energy (T.KE)} &= \frac{1}{2}m v^{2} \\
+\text{Rotational kinetic energy (R.KE)} &= \frac{1}{2} I \omega^{2} \quad \text{, where $I$ means moment of inertia}\\
+\text{Kinetic energy for a body }& \nonumber\\
+\text{about its center of mass} &= \text{(T.KE)} + \text{(R.KE)} \\
+\text{Gravitational potential energy} &= mgh \quad \text{, always use value of $g$ to be $10m/s^{2}$} \\
+\text{Spring potential energy} &= \frac{1}{2}k x^{2} \quad \text{, where $k$ means spring constant}
+\end{align}
+
+\subsection*{Confused words in the Classical Mechanics}
 
 \begin{itemize}
 \item \emph{String} (i.e. straight wire or thread) and \emph{Spring} (i.e. a helical metal coil).
 \item \emph{Gravity} (i.e. gives the answer why every objects fall towards the earth) and \emph{Cavity} (i.e. a hollow space inside solid or liquid)
+\item \emph{Geostationary orbit} and \emph{Geosynchronous orbit} are just a synonym of each others. 
+\item \emph{Rotation} (i.e. rotate around its own axis) and \emph{Revolution} (i.e. rotate around the heaver object)
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Electromagnetism (18\%)}
