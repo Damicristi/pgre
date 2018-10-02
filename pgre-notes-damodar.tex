@@ -17,6 +17,7 @@
 \usepackage{soul}
 \newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
 \DeclareRobustCommand{\hlcyan}[1]{{\sethlcolor{cyan}\hl{#1}}}
+\DeclareRobustCommand{\hlgray}[1]{{\sethlcolor{lightgray}\hl{#1}}}
 
 \usepackage[a4paper]{geometry} % To adjust the margin of the page
 \geometry{left = 1in, right= 1in, top = 1.25in, bottom = 1.25in, headheight= 0.5in} %Rescaling the Margin
@@ -234,7 +235,7 @@ If an object is acted on only by \emph{conservative} forces (i.e. the work done 
 
 \subsubsection{Energy conservation for non-conservative force}
 
-For non-conservative force, E$_\text{initial}$ $\neq$ E$_\text{final}$. So, we need to add extra term in which energy is converted into another form. i.e. E$_\text{initial}$ + W$_\text{other}$ = E$_\text{final}$ where W$_\text{other}$ is the work done by non-conservative force. This is we called as \emph{work-energy theorem}. The most common example of the non-conservative force is frictional force. You can use this concept in the problems like in-elastic collision.
+For non-conservative force, \hlgray{E$_\text{initial}$ $\neq$ E$_\text{final}$}. So, we need to add extra term in which energy is converted into another form. i.e. E$_\text{initial}$ + W$_\text{other}$ = E$_\text{final}$ where W$_\text{other}$ is the work done by non-conservative force. This is we called as \emph{work-energy theorem}. The most common example of the non-conservative force is frictional force. You can use this concept in the problems like in-elastic collision.
 
 \subsubsection*{Tips}
 \begin{itemize}
@@ -246,11 +247,11 @@ So, the right choice from these can helps us to solve the problem very fast.
 \subsubsection{Types of energies}
 The most common types of energies are:
 \begin{align}
-\text{Translation kinetic energy (T.KE)} &= \frac{1}{2}m v^{2} \\
-\text{Rotational kinetic energy (R.KE)} &= \frac{1}{2} I \omega^{2} \quad \text{, where $I$ means moment of inertia}\\
+\text{Translation kinetic energy \hlgray{(T.KE)}} &= \frac{1}{2}m v^{2} \\
+\text{Rotational kinetic energy \hlgray{(R.KE)}} &= \frac{1}{2} I \omega^{2} \quad \text{, where $I$ means moment of inertia}\\
 \text{Kinetic energy for a body }& \nonumber\\
-\text{about its center of mass} &= \text{(T.KE)} + \text{(R.KE)} \\
-\text{Gravitational potential energy} &= mgh \quad \text{, always use value of $g$ to be $10m/s^{2}$} \\
+\text{about its center of mass} &= \text{\hlgray{(T.KE)}} + \text{\hlgray{(R.KE)}} \\
+\text{Gravitational potential energy} &= mgh \quad \text{, always use value of $g$ to be 10 $m/s^{2}$} \\
 \text{Spring potential energy} &= \frac{1}{2}k x^{2} \quad \text{, where $k$ means spring constant}
 \end{align}
 So, the simplest trick you can use while doing most of the problems is:
