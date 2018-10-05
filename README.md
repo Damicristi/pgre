@@ -15,8 +15,7 @@
 </form>
 </center>
 
-<b>Copyright license:</b> You are restricted by copyright to change the author name as yours during your 
-modification in the [Notes for Physics GRE to Ace](https://github.com/Damicristi/pgre/blob/master/pgre-notes-damodar.pdf). But, you can add your name at \thanks{}, the step is shown below:
+<b>Copyright license:</b> You can edit this note at [Edit Note](https://github.com/Damicristi/pgre). But, you are restricted by copyright to change the author name as yours during your modification in the [Notes for Physics GRE to Ace](https://github.com/Damicristi/pgre/blob/master/pgre-notes-damodar.pdf). But, you can add your name at \thanks{}, the step is shown below:
 
 
 \author{Damodar Rajbhandari\thanks{ Your name has contributed to this work.}\\\\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} 
