@@ -12,6 +12,9 @@
 \usepackage{amsfonts} % for ams style fonts
 \usepackage{amssymb}  % for ams mathematical symbols
 
+% for physics symbol
+\usepackage{physics}
+
 % For equation highlighting!!!
 \usepackage{xcolor}
 \usepackage{soul}
@@ -182,11 +185,11 @@ a = r\omega^{2}
 F_{\text{radial}} = \frac{mv^{2}}{r}
 \end{align}
 
-If you see any problem related to circular motion then, any force (i.e. gravitational force or magnetic force) can be equal to centripetal force. 
+If you see any problem related to circular motion then, any force (i.e. gravitational force or magnetic force or tension on the string) can be equal to centripetal force. 
 \begin{align*}
 \text{Any force} = F_{\text{radial}}
 \end{align*}
-For example: in an uniform magnetic field which is perpendicular to the direction of motion of a particle then, its tangential velocity will be constant and can be considered the problem of circular motion.
+For example: In an uniform magnetic field which is perpendicular to the direction of motion of a particle then, its tangential velocity will be constant and can be considered the problem of circular motion.
 
 
 \subsection{Newton's laws of motion}
@@ -340,6 +343,53 @@ It includes electrostatics, current and DC circuits, magnetic fields in free spa
 \section{Quantum Mechanics (12\%)}
 
 It includes fundamental concepts, solutions of the Schr\"{o}dinger equation (like square wells, harmonic oscillators and hydrogen atoms), spin, angular momentum, wave function, symmetry, and elementary perturbation theory.
+
+\subsection{Probablity of wave function}
+The probability of finding a particle with wave function $\psi(x,t)$ within the volume\footnote{For one-dimension, volume is length of a line i.e. positions $(x, x+dx)$.} $dv$ is $|\psi(x,t)|^{2}dv$. So, the total probability $\int_{-\infty}^{\infty} |\psi(x,t)|^{2}dv = 1$. The wave function must be normalized and wave function should vanish exactly at $-\infty$ to $\infty$. For revision, we only consider one dimension most often.
+
+\subsubsection{Dimension of wave function}
+You can get its dimension by applying dimensional analysis in the total probability of wave function. i.e.
+\begin{align}
+\text{Dimension} = L^{-d/2}
+\end{align}
+where, d is the spatial dimensions. 
+
+\subsection{Hermitian operator}
+Hermitian is defined as a transpose of complex conjugate. An operator is said to be Hermitian operator if $\hat{A}^{\dagger} = (A^{*})^{T}= \hat{A}$ or to be more precise
+
+\begin{align}
+\int_{-\infty}^{\infty} f(x)^{*} (\hat{A} g(x)) dx = \int_{-\infty}^{\infty} (\hat{A} f(x))^{*} g(x) dx.
+\end{align}
+Here are some facts about Hermitian operator:
+\begin{itemize}
+\item All their eigenvalues are real.
+\item Eigenfunctions corresponding to different eigenvalues are orthogonal. i.e.
+\begin{align*}
+\int_{-\infty}^{\infty} f(x)^{*} g(x) dx = 0. 
+\end{align*}
+\end{itemize}
+
+\subsection{Observables in-term of Hermitian operator}
+\begin{align*}
+\langle\hat{A}\rangle = \int_{-\infty}^{\infty} \psi^{*} \hat{A} \psi dx
+\end{align*}
+
+In quantum mechanics, observables and operators are often interchangeable. An observable refer to a physical quantity whereas operator refers to its mathematical representation i.e. matrix.
+
+\subsection{Dirac notation}
+$\bra{a}$ refers to \emph{bra} and $\ket{b}$ refers to \emph{ket} which is as a whole refers to bra(c)ket notation or Dirac notation. The inner product of $\bra{a}$ and $\ket{b}$ is $\braket*{a}{b}$ where $\bra{a}$ is a row vector $a$ (also, a hermitian conjugate of $\ket{a}$), and $\ket{b}$ is column vector $b$. Just for knowledge not for pGRE, the state of a wave function can be modeled as a set of points in a Hilbert space which allows us to measure length and angle due to inner product. 
+
+Here are some results of this notation that is good to remember. i.e.
+\begin{itemize}
+\item Complex conjugate of inner product, $\braket*{a}{b} = \braket*{b}{a}^{*}$. 
+\item An operator $\hat{A}$ on $\ket{b}$, $\hat{A}\ket{b} = \ket*{\hat{A}b}$.
+\item Hermitian conjugate of $\hat{A}$ i.e. $\hat{A}^{\dagger}$, $ \braket*{a}{\hat{A}b} =  \braket*{\hat{A}^{\dagger} a}{b} = \braket*{\hat{A} a}{b}$ because $\hat{A}^{\dagger} = \hat{A}$.
+\item Function in the Dirac notation, $\braket*{x}{f} = f(x)$.
+\item Inner product on function space, $\braket*{f}{g} = \int_{-\infty}^{\infty} f(x)^{*} g(x) dx$.
+\item Observable $A$ in the Dirac notation, $\langle\hat{A}\rangle = \int_{-\infty}^{\infty} \psi^{*} \hat{A} \psi dx = \mel{\psi^{*}}{\hat{A}}{\psi}$.
+\end{itemize}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
