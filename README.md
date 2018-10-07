@@ -1,4 +1,5 @@
-<b>Author voice:</b> BEST OF LUCK ON YOUR TEST!
+<b>Author voice:</b> This note keeps on updating time and again. So, I strongly recommend you viewing note instead of download.<br>
+BEST OF LUCK ON YOUR TEST!
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
