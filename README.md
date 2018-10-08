@@ -13,7 +13,6 @@ BEST OF LUCK ON YOUR TEST!
   <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_format" value="plain" />
-  <br>
   <button type="submit" style="padding: 8px; border-radius: 4px;  border: 1px solid black">Send It Fast</button>
 </form>
 </center>
