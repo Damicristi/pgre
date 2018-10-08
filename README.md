@@ -3,7 +3,17 @@ BEST OF LUCK ON YOUR TEST!
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
-<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) or dphysicslog[at]gmail[dot]com.
+<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE)(if you have any queries regarding LaTeX source) or use the below form.
+
+<form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
+  <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_format" value="plain" />
+  <button type="submit">Send It Fast</button>
+</form>
 
 <b id="donate">Support my work:</b> I'm hoping to rely on loyal readers, rather than erratic ads. Click the Donate button and support this project. Thank you!
 <center>
