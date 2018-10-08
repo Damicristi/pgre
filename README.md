@@ -7,10 +7,8 @@ BEST OF LUCK ON YOUR TEST!
 
 <center style="padding: 8px; border-radius: 4px;  border: 1px dotted black">
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email"  required style="padding: 8px; margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black">
-  <label for="message">Message</label>
-  <textarea name="message" id="message" required style="padding: 8px;  margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black"></textarea>
+  <p><input type="email" name="email" required style="padding: 8px; margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black" placeholder="Your Email"></p>
+  <p><textarea name="message" required style="padding: 8px;  margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black" placeholder="Your message"></textarea></p>
   <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
   <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
   <input type="text" name="_gotcha" style="display:none" />
