@@ -5,7 +5,7 @@ BEST OF LUCK ON YOUR TEST!
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE)(if you have any queries regarding LaTeX source) or use the below form.
 
-<center>
+<center style="padding: 8px; border-radius: 4px;  border: 1px dotted black">
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
   <span> Your Email </span><input type="email" name="email" style="padding: 8px; margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black">
   <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
