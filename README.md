@@ -3,7 +3,7 @@ BEST OF LUCK ON YOUR TEST!
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
-<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE)(if you have any queries regarding LaTeX source) or use the below form anonymously.
+<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) (if you have any queries regarding LaTeX source) or use the below form anonymously.
 
 <center style="padding: 8px; border-radius: 4px;  border: 1px dotted black">
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
