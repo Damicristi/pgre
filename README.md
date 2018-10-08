@@ -8,9 +8,10 @@ BEST OF LUCK ON YOUR TEST!
 <center style="padding: 8px; border-radius: 4px;  border: 1px dotted black">
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
   <span> Your Email </span><input type="email" name="email" style="padding: 8px; margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black">
+  <br>
   <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
-  <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" /><br>
-  <span> Your Message </span><textarea name="message"  style="padding: 8px;  margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black"></textarea>
+  <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
+  <span> Your Message </span><br><textarea name="message"  style="padding: 8px;  margin-bottom: 0.5cm; border-radius: 4px;  border: 1px solid black"></textarea>
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_format" value="plain" />
   <br>
