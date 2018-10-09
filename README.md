@@ -31,9 +31,9 @@ BEST OF LUCK ON YOUR TEST!
 </form>
 </center>
 
-<b>Contribution Guidelines</b> My aim of creating this webpage is to make a full-fledged pGRE note in future by collaboration. Because I believe that sharing is caring and to have a better understanding of the topic. If you are interested in the project, I'm also definitely interested in your contribution. So that our work may be very useful who are needy of it. I consider contributor as Github user who edits my note LaTeX source code and then, does pull request. If you are new to Github then, you can learn how to create your first pull request from this free series ["How to Contribute to an Open Source Project on GitHub?"](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github){:target="_blank"}.
+<b>Contribution Guidelines: </b> My aim of creating this webpage is to make a full-fledged pGRE note in future by collaboration. Because I believe that sharing is caring and to have a better understanding of the topic. If you are interested in the project, I'm also definitely interested in your contribution. So that our work may be very useful who are needy of it. I consider contributor as Github user who edits my note LaTeX source code and then, does pull request. If you are new to Github then, you can learn how to create your first pull request from this free series ["How to Contribute to an Open Source Project on GitHub?"](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github){:target="_blank"}.
 
-<b>Copyright license:</b> You can edit this note at [Github](https://github.com/Damicristi/pgre){:target="_blank"}. But, you are restricted by copyright to change the author name as yours during your modification in the "Notes for Physics GRE to Ace". But, you can add your name at \thanks{}, the step is shown below:
+<b>Copyright license: </b> You can edit this note at [Github](https://github.com/Damicristi/pgre){:target="_blank"}. But, you are restricted by copyright to change the author name as yours during your modification in the "Notes for Physics GRE to Ace". But, you can add your name at \thanks{}, the step is shown below:
 
 
 \author{Damodar Rajbhandari\thanks{ Your name has contributed to this work.}\\\\ \href{https://damodarrajbhandari.com.np}{damodarrajbhandari.com.np} 
@@ -43,7 +43,7 @@ BEST OF LUCK ON YOUR TEST!
 Giving credit is a way of respecting the author’s heartfelt dedication and hard work. So, do I prefer.  <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-<b> Contributors </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
+<b> Contributors: </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
 
 
 
