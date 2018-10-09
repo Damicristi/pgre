@@ -3,14 +3,14 @@ BEST OF LUCK ON YOUR TEST!
 
 <b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com). I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
-<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) (if you have any queries regarding LaTeX source) or use the below form anonymously.
+<b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) (if you have any queries regarding LaTeX source) or use the below form.
 
 <center>
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
 	<fieldset>  
     <legend> Stay Anonymous </legend>
   <p><input type="email" name="email" required style="padding: 8px; margin-bottom: 0.2cm; border-radius: 4px;  border: 1px solid black" placeholder="Your Email"></p>
-  <p><textarea name="message" rows="3" required style="padding: 8px;  border-radius: 4px;  border: 1px solid black;" placeholder="Your message"></textarea></p>
+  <p><textarea name="message" cols="30" rows="3" required style="padding: 8px;  border-radius: 4px;  border: 1px solid black;" placeholder="Your message"></textarea></p>
   <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
   <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
   <input type="text" name="_gotcha" style="display:none" />
