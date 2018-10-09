@@ -5,15 +5,18 @@ BEST OF LUCK ON YOUR TEST!
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE) (if you have any queries regarding LaTeX source) or use the below form anonymously.
 
-<center style="padding: 8px; border-radius: 4px;  border: 1px dotted black">
+<center>
 <form method="POST" action="https://formspree.io/dphysicslog@gmail.com">
+	<fieldset>  
+    <legend> Stay Anonymous </legend>
   <p><input type="email" name="email" required style="padding: 8px; margin-bottom: 0.2cm; border-radius: 4px;  border: 1px solid black" placeholder="Your Email"></p>
-  <p><textarea name="message" cols="50" rows="3" required style="padding: 8px;  border-radius: 4px;  border: 1px solid black;" placeholder="Your message"></textarea></p>
+  <p><textarea name="message" rows="3" required style="padding: 8px;  border-radius: 4px;  border: 1px solid black;" placeholder="Your message"></textarea></p>
   <input type="hidden" name="_subject" value="Physics GRE Message at https://projects.physicslog.com/pgre/" />
   <input type="hidden" name="_next" value="https://projects.physicslog.com/pgre/" />
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_format" value="plain" />
   <button type="submit" style="padding: 8px; border-radius: 4px;  border: 1px solid black">Send It Fast</button>
+</fieldset>
 </form>
 </center>
 
