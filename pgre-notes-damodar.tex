@@ -48,6 +48,10 @@
 
 \maketitle % Retrieving the title informations like title, author and date.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 pGRE stands for Physics subject test for Graduate Record Examination (GRE). This test is designed and taken by Educational Testing Service (ETS). The test consists of 100 questions with 5 choices, and you have 2 hours and 50 minutes to do it. This means, you only have an average of 1.7 minutes per problem. This is why many test takers found it's difficult. But, I want to note here from the very beginning, there are some tricks that makes calculations much simpler and which do not require special knowledge. 
 
 Unlike general GRE and TOEFL, pGRE is a paper-based test. And, it yields a total score on a 200 to 900 score scale in 10-point increments. Most of the questions can be answered on the basis of how much knowledge and understanding  do you have in your first three years of undergraduate physics. You must use International system (SI) of units. You are not allowed to use a calculator during the test. But, the test center will provide you a table sheet of information representing various physical constant and a few conversion factors, log book, pencils, and test book along with the bubble answer sheets. Do not worry about you cannot do calculations without a calculator because it's enough to know or guess an answer out of five from your approximate numerical value. Even though pGRE will test your physics solving brilliance but it may also test your ability on certain mathematical method and their applications in physics.  We are lucky that nothing is subtracted from a score if you answer a question incorrectly or leave it blank. But, in the past, they used to penalize incorrect answer by subtracting one quarter per incorrect answer from your score.
@@ -58,9 +62,13 @@ The pGRE is offered 3 times per year, in April, September, and October. Most peo
 Let me give you some insights of the pGRE syllabus by ETS. This is given below.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \tableofcontents
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tips and Tricks !!!
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \vspace*{1cm}
@@ -78,6 +86,10 @@ Before I start, it will be fruitful if I give you some relevant tricks to tackle
 
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Remember important values!!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 I want to note here, you need to memorize some important values which will not be given in the formula sheet of your test book. These are shown below.
 
 \begin{itemize}
@@ -94,370 +106,30 @@ I want to note here, you need to memorize some important values which will not b
 
 Let's get started from the notes that I have taken for my pGRE test. I will use the convention of numbering on for the equation that is worth to memorize for the test.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Classical Mechanics (20\%)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contents imported!!! Click "Structure" tab in TeXMaker to view the contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-It includes kinematics, Newton's laws, work and energy, oscillatory motion, rotational motion about a fixed axis, dynamics of systems of particles, central forces and celestial mechanics, three-dimensional particle dynamics, Lagrangian and Hamiltonian formalism, non-inertial reference frames, and elementary topics in fluid dynamics.
+\input{contents/ClassicalMechanics/ClassicalMechanics}
 
-\subsection{Kinematics}
+\input{contents/Electromagnetism/Electromagnetism}
 
-\subsubsection{Linear Motion in the inertial frame of reference}
+\input{contents/QuantumMechanics/QuantumMechanics}
 
-\subsubsection*{Average velocity}
-\begin{align*}
-v = \frac{\Delta x}{\Delta t} = \frac{x_{2} - x_{1}}{t_{2} - t_{1}}
-\end{align*}
+\input{contents/ThermodynamicsAndStatisticalMechanics/ThermodynamicsAndStatisticalMechanics}
 
-\subsubsection*{Instantaneous velocity}
-\begin{align*}
-v = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt} = v(t)
-\end{align*}
+\input{contents/AtomicPhysics/AtomicPhysics}
 
-\subsubsection*{Acceleration}
-\begin{align*}
-a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{dv}{dt} = a(t)
-\end{align*}
+\input{contents/OpticsAndWaves/OpticsAndWaves}
 
-If acceleration is zero then, the velocity will be constant. Likewise, if velocity is constant then, acceleration will be zero.
+\input{contents/SpecializedTopics/SpecializedTopics}
 
-\subsubsection*{Kinematic equations of motion under constant acceleration: SUVAT rule}
-\begin{align}
-v &= u + at\\
-(x - x_{0}) = s &= ut + \frac{1}{2}at^{2} \\
-v^{2} &= u^{2} + 2as \\
-(x - x_{0}) &= \frac{1}{2}(u + v)t 
-\end{align}
+\input{contents/SpecialRelativity/SpecialRelativity}
 
-\subsubsection{Projectile motion}
-
-To solve projectile motion related problems, we only need equations of motion for \emph{two dimensions}. This is because if you observe an object moving in the projectile motion, you will only see two components to study this motion. But I want to aware you this is not true for an object which is moving in a curvy way (or, approximately zigzag or spiral). For example, boomerang. So, for the projectile motion, we only need is
-
-\begin{align*}
-\text{in $x$-axis:\quad} x(t_{1}) &= x(t_{0}) + \mathcolorbox{cyan}{u_{x}}t_{1} \\
-\text{, and in $y$-axis:\quad} y(t_{1}) &= y(t_{0}) + \mathcolorbox{cyan}{u_{y}}t_{1} \mathcolorbox{lightgray}{ - \frac{1}{2}g t^{2}_{1}}
-\end{align*}
-where \hlcyan{$u_{i}$ refers to initial velocity in $i$-axis}. In this type of motion, we assume an object will only falling under the influence of gravity so, we have additional term which is highlighted by gray color. In order to have mathematically correct equation, we also need negative sign in-front of it which suggest us, we need to change the direction of gravity along with the $y$-axis direction. 
-
-\subsubsection{Uniform circular motion}
-
-The most simplest form of an orbit is circular path in-which its acceleration vector is decomposed into radial and tangential components. If its tangential acceleration is zero which means its tangential velocity is constant then, we can have uniform circular motion about the center of circle.  This means if you see tangential velocity be constant then, you can think of the problem is related to circular motion. There must be radially inward force acting on the object which we called as centripetal force. Thus, it keeps an object moving in a circular path with constant speed\footnote{We use ``speed" instead of velocity because we consider our velocity to be constant that means we don't need to deal with the direction of this velocity. Because whatever the direction is, its magnitude of the velocity remains same. But note it, its magnitude play a very crucial role to be in a circular path.}. But, keep in mind that its radial acceleration is non-zero.
-
-\subsubsection*{Radial or centripetal acceleration}
-\begin{align*}
-a = \frac{v^{2}}{r}
-\end{align*}
-
-\subsubsection*{Angle}
-\begin{align*}
-\theta = \frac{\text{arc}}{\text{radius}}
-\end{align*}
-
-\subsubsection*{Angular velocity}
-\begin{align*}
-\omega = \lim_{\Delta t \to 0}\frac{\Delta \theta}{\Delta t}
-\end{align*}
-
-\subsubsection*{Relation of v and $\omega$}
-\begin{align}
-v = r\omega
-\end{align}
-
-\subsubsection*{Relation of a and $\omega$}
-\begin{align}
-a = r\omega^{2}
-\end{align}
-
-\subsubsection*{Angular acceleration}
-\begin{align*}
-\alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}
-\end{align*}
-
-\subsubsection*{Rotational equation of motion under constant angular acceleration}
-\begin{align}
-\omega &= \omega_{0} + \alpha t \\
-\theta &= \omega_{0}t + \frac{1}{2}\alpha t^{2} \\
-\omega^{2} &= \omega_{0}^{2} + 2\alpha \theta \\
-\theta &= \frac{1}{2}(\omega_{0} + \omega)t
-\end{align}
-
-\subsubsection*{Centripetal or radial force}
-\begin{align}
-F_{\text{radial}} = \frac{mv^{2}}{r}
-\end{align}
-
-If you see any problem related to circular motion then, any force (i.e. gravitational force or magnetic force or tension on the string) can be equal to centripetal force. 
-\begin{align*}
-\text{Any force} = F_{\text{radial}}
-\end{align*}
-For example: In an uniform magnetic field which is perpendicular to the direction of motion of a particle then, its tangential velocity will be constant and can be considered the problem of circular motion.
-
-
-\subsection{Newton's laws of motion}
-
-\noindent\textbf{First law:} A body continues in its state of rest or \emph{uniform motion} unless any external \emph{unbalanced force} act upon it.
-\\
-\textbf{Second law:} The net force \emph{on} a body is proportional to its rate of change of \emph{linear momentum}.
-\begin{align*}
-F = \frac{dp}{dt} = ma
-\end{align*}
-\\
-\textbf{Third law:} When a particle A exerts a force on another particle B (i.e. $F_{AB}$), B simultaneously exerts a force on A (i.e. $F_{BA}$) with the \emph{same magnitude} in the \emph{exactly opposite direction}.
-\begin{align*}
-F_{AB} = - F_{BA}
-\end{align*}
-
-\subsection{Frictional Force}
-
-\begin{align}
-F_{f} = \mu \times F_{N}
-\end{align}
-
-where, $F_{f}$ refers to frictional force, $F_{N}$ refers to normal force, and $\mu$ refers to coefficient of the friction.
-
-\subsubsection*{Tips}
-
-\begin{itemize}
-\item When interactions between the blocks become important, for example when they exert forces on one another through friction, then we must usually treat them as independent objects.
-
-\item If one block of mass ``m" is sits on the top of the another block of mass ``M", and the blocks don't slip then, two bodies are behaving as one with mass of (m+M).  This means, $\mu$ depends on the combination of ``m" and ``M", rather than ``m" or ``M" individually. Also, both the blocks will experience the same acceleration. This makes our problem-solving time faster because we will only use the above concepts and Newton's second law. But not the free body diagram procedure which is actually time-consuming.
-
-\item We change physical quantities in the form of components consists of $sin$ and $cos$. So, we need to remember that at the angle of $45^{\circ}$, $sin(45^{\circ}) = cos(45^{\circ})$ which will make our calculation much simpler.
-
-\item If a spherical or cylindrical object move by rolling (not by slipping) then, frictional force is responsible for it. So, we can neglect translation kinetic energy, and only use rotational kinetic energy. Remember, frictional force only causes rotational motion and which is instantaneous, so you can say frictional force has done negligible work thus, you don't have to account the frictional energy (i.e. $F_{f} \times \text{distance}$).
-
-
-\end{itemize}
-
-\subsection{Energy}
-
-The most important physical quantity called energy has its own conservation law which helps to solve many problems related to it. And this says: ``\emph{Energy neither be created nor be destroyed, but can be transform from one form to another}". For example: kinetic to potential.
-
-\subsubsection{Energy conservation for conservative force} \label{ecf}
-
-If an object is acted on only by \emph{conservative} forces (i.e. the work done by the force is independent of path. For e.g. gravitational, magnetic, electrical, spring force and etc) then, the sum of the kinetic and potential energies always remains \emph{constant} along the object's path. i.e. E$_\text{initial}$ = E$_\text{final}$. You can use this concept in the problems like elastic collision.
-
-\subsubsection{Energy conservation for non-conservative force}
-
-For non-conservative force, \hlgray{E$_\text{initial}$ $\neq$ E$_\text{final}$}. So, we need to add extra term in which energy is converted into another form. i.e. E$_\text{initial}$ + W$_\text{other}$ = E$_\text{final}$ where W$_\text{other}$ is the work done by non-conservative force. This is we called as \emph{work-energy theorem}. The most common example of the non-conservative force is frictional force. You can use this concept in the problems like in-elastic collision.
-
-\subsubsection*{Tips}
-\begin{itemize}
-\item Use \emph{conservation of energy}, when we need to calculate how fast (i.e. velocity ?) and how far (i.e. position ?) something goes. Because this law only uses kinetic energy (which depend on velocity), and potential energy (which depend on positions).
-\item Use \emph{Kinematics}, when we need to calculate how much time something takes. Because the position and velocity is explicitly a function of time.
-\end{itemize}
-So, the right choice from these can helps us to solve the problem very fast.
-
-\subsubsection{Types of energies}
-The most common types of energies are:
-\begin{align}
-\text{Translation kinetic energy \hlgray{(T.KE)}} &= \frac{1}{2}m v^{2} \\
-\text{Rotational kinetic energy \hlgray{(R.KE)}} &= \frac{1}{2} I \omega^{2} \quad \text{, where $I$ means moment of inertia}\\
-\text{Kinetic energy for a body }& \nonumber\\
-\text{about its center of mass} &= \text{\hlgray{(T.KE)}} + \text{\hlgray{(R.KE)}} \\
-\text{Gravitational potential energy} &= mgh \quad \text{, always use value of $g$ to be 10 $m/s^{2}$} \\
-\text{Spring potential energy} &= \frac{1}{2}k x^{2} \quad \text{, where $k$ means spring constant}
-\end{align}
-So, the simplest trick you can use while doing most of the problems is:
-\begin{align*}
-\text{Other forms of energy} = \text{Potential energy}
-\end{align*}
-
-\subsection{Momentum}
-\begin{align*}
-\text{Linear momentum: } p &= mv \\
-\text{Angular momentum: } L &= I\omega
-\end{align*}
-
-\subsubsection{Relation between angular and linear momentum}
-\begin{align}
-L = r \times p
-\end{align}
-where $\times$ is the cross-product. This expression is only used when we need to account the system which is build out of smaller pieces. So, you can simply use $ L = I\omega$ for the compact/dense system.
-
-\subsubsection{Conservation of Momentum}
-Like conservation of energy, momentum is always conserved in a system in the absence of an external forces. i.e.
-\begin{align*}
-\text{Total initial momentum} = \text{Total final momentum}
-\end{align*}
-
-
-Always give conservation of momentum as a first priority. Because you cannot use conservation of energy \ref{ecf} for in-elastic collision but, you can still use conservation of momentum. 
-
-\subsection{Torque}
-
-It is also called as moment or moment of force or rotational force.
-
-\begin{align}
-\tau &= \frac{dL}{dt} \nonumber \\
-\tau &= r \times F 
-\end{align}
-
-\subsection{Moment of Inertia}
-It is also called as rotational inertia or angular mass. So, moment of inertia can be analogous to an inertial mass\footnote{Inertial mass measures an object's resistance to being linearly accelerated by a force (represented by the relationship $F = ma$). Similarly, angular mass measures an object's resistance to being angularly accelerated by a rotational force.} (or simply mass).
-
-\subsubsection*{A point particle of mass m:}
-\begin{align*}
-I = m r^{2}
-\end{align*}
-\subsubsection*{A system of many particles:}
-Its moment of inertia is the sum of the individual moments of inertia. But, for an object with infinitely many particles:
-\begin{align*}
-I = \int r^{2} dm
-\end{align*}
-where, $dm$ is an infinitesimal mass element and $r$ is the distance from the point to the axis of rotation.
-
-\subsubsection{Parallel axis theorem}
-It says, if you know the moment of inertia of a system of mass $M$ rotating about an axis through its center of mass (CM), then its moment of inertia about \emph{any axis parallel} to the CM axis is:
-\begin{align}
-I = I_{\text{CM}} + M r^{2}.
-\end{align}
-In pGRE formula sheets, the test taker provides moment of inertia for solid objects like rod, disc, and sphere. Remember, \emph{the moment of inertia about the \emph{CM} axis for a solid cylinder is same as of disc which is not given in the sheet.} i.e. $\frac{1}{2}M r^{2}$.
-
-\subsection{Center of Mass}
-It is a point (like a fulcrum) which balances the two sides.
-
-\subsubsection*{A system of point masses}
-\begin{align*}
-r_{\text{CM}} = \frac{\sum_{i} r_{i} m_{i}}{\sum_{i} m_{i}}
-\end{align*}
-
-\subsubsection*{A system of bulk mass}
-\begin{align*}
-r_{\text{CM}} = \frac{\int r dm}{\int dm}
-\end{align*}
- 
-\subsection*{Confused words in the Classical Mechanics}
-
-\begin{itemize}
-\item \emph{String} (i.e. straight wire or thread) and \emph{Spring} (i.e. a helical metal coil).
-\item \emph{Gravity} (i.e. gives the answer why every objects fall towards the earth) and \emph{Cavity} (i.e. a hollow space inside solid or liquid)
-\item \emph{Geostationary orbit} and \emph{Geosynchronous orbit} are just a synonym of each others. 
-\item \emph{Rotation} (i.e. rotate around its own axis) and \emph{Revolution} (i.e. rotate around the heaver object)
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Electromagnetism (18\%)}
-
-It includes electrostatics, current and DC circuits, magnetic fields in free space, Lorentz force, induction, Maxwell's equations and their applications, electromagnetic waves, AC circuits, and magnetic and electric fields in matter.
+\input{contents/LaboratoryMethods/LaboratoryMethods}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Quantum Mechanics (12\%)}
-
-It includes fundamental concepts, solutions of the Schr\"{o}dinger equation (like square wells, harmonic oscillators and hydrogen atoms), spin, angular momentum, wave function, symmetry, and elementary perturbation theory.
-
-\subsection{Probablity of wave function}
-The probability of finding a particle with wave function $\psi(x,t)$ within the volume\footnote{For one-dimension, volume is length of a line i.e. positions $(x, x+dx)$.} $dv$ is $|\psi(x,t)|^{2}dv$. So, the total probability $\int_{-\infty}^{\infty} |\psi(x,t)|^{2}dv = 1$. The wave function must be normalized and wave function should vanish exactly at $-\infty$ to $\infty$. For revision, we only consider one dimension most often.
-
-\subsubsection{Dimension of wave function}
-You can get its dimension by applying dimensional analysis in the total probability of wave function. i.e.
-\begin{align}
-\text{Dimension} = L^{-d/2}
-\end{align}
-where, d is the spatial dimensions. 
-
-\subsection{Hermitian operator}
-Hermitian is defined as a transpose of complex conjugate. An operator is said to be Hermitian operator if $\hat{A}^{\dagger} = (A^{*})^{T}= \hat{A}$ or to be more precise
-
-\begin{align}
-\int_{-\infty}^{\infty} f(x)^{*} (\hat{A} g(x)) dx = \int_{-\infty}^{\infty} (\hat{A} f(x))^{*} g(x) dx.
-\end{align}
-Here are some facts about Hermitian operator:
-\begin{itemize}
-\item All their eigenvalues are real.
-\item Eigenfunctions corresponding to different eigenvalues are orthogonal. i.e.
-\begin{align*}
-\int_{-\infty}^{\infty} f(x)^{*} g(x) dx = 0. 
-\end{align*}
-\end{itemize}
-
-\subsection{Observables in-term of Hermitian operator}
-\begin{align*}
-\langle\hat{A}\rangle = \int_{-\infty}^{\infty} \psi^{*} \hat{A} \psi dx
-\end{align*}
-
-In quantum mechanics, observables and operators are often interchangeable. An observable refer to a physical quantity whereas operator refers to its mathematical representation i.e. matrix.
-
-\subsection{Dirac notation}
-$\bra{a}$ refers to \emph{bra} and $\ket{b}$ refers to \emph{ket} which is as a whole refers to bra(c)ket notation or Dirac notation. The inner product of $\bra{a}$ and $\ket{b}$ is $\braket*{a}{b}$ where $\bra{a}$ is a row vector $a$ (also, a hermitian conjugate of $\ket{a}$), and $\ket{b}$ is column vector $b$. Just for knowledge not for pGRE, the state of a wave function can be modeled as a set of points in a Hilbert space which allows us to measure length and angle due to inner product. 
-
-Here are some results of this notation that is good to remember. i.e.
-\begin{itemize}
-\item Complex conjugate of inner product, $\braket*{a}{b} = \braket*{b}{a}^{*}$. 
-\item An operator $\hat{A}$ on $\ket{b}$, $\hat{A}\ket{b} = \ket*{\hat{A}b}$.
-\item Hermitian conjugate of $\hat{A}$ i.e. $\hat{A}^{\dagger}$, $ \braket*{a}{\hat{A}b} =  \braket*{\hat{A}^{\dagger} a}{b} = \braket*{\hat{A} a}{b}$ because $\hat{A}^{\dagger} = \hat{A}$.
-\item Function in the Dirac notation, $\braket*{x}{f} = f(x)$.
-\item Inner product on function space, $\braket*{f}{g} = \int_{-\infty}^{\infty} f(x)^{*} g(x) dx$.
-\item Observable $A$ in the Dirac notation, $\langle\hat{A}\rangle = \int_{-\infty}^{\infty} \psi^{*} \hat{A} \psi dx = \mel{\psi^{*}}{\hat{A}}{\psi}$.
-\end{itemize}
-
-\subsection{Quantum operators}
-It is easy to remember quantum operators on a single axis than a general form.
-
-\begin{align*}
-\text{Position, } \hat{x} &= x \\ 
-\text{Momentum, } \hat{p} &= -i\hbar\pdv{x} \\
-\text{Kinetic energy, } \hat{T} &=  \frac{\hat{p}^{2}}{2m} = -\frac{\hbar^{2}}{2m} \pdv[2]{x}\\
-\text{Hamiltonian, } \hat{H} &= \hat{T} + \hat{V} = -\frac{\hbar^{2}}{2m} \pdv[2]{x} + \hat{V}(x) \\
-\text{Total Energy for time-dependent potential, } \hat{E} &= i\hbar \pdv{t}\\
-\text{Total Energy for time-independent potential, } \hat{E} &= E \\
-\text{Angular momentum, } \hat{L}_{x} &= -i\hbar \left( y\pdv{z} - z\pdv{y}\right)
-\end{align*}
-\begin{align*}
-\hat{L}_{y} &= -i\hbar \left( z\pdv{x} - x\pdv{z}\right) \\
-\hat{L}_{z} &= -i\hbar \left( x\pdv{y} - y\pdv{x}\right)
-\end{align*}
-
-\subsection{Schr\"odinger equation}
-You can find the wave function from the solution of Schr\"o dinger equation.
-\begin{align}
-\hat{H} \psi(x,t) &= \hat{E} \psi(x,t)
-\end{align}
-
-\subsubsection{Time dependent}
-\begin{align*}
-\left(-\frac{\hbar^{2}}{2m} \pdv[2]{x} + \hat{V}(x)\right)\psi(x,t) &=  i\hbar \pdv{t}\psi(x,t)
-\end{align*}
-
-\subsubsection{Time independent}
-\begin{align*}
-\left(-\frac{\hbar^{2}}{2m} \pdv[2]{x} + \hat{V}(x)\right)\psi(x,t) &=  E\psi(x,t)
-\end{align*}
-
+% THE END
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Thermodynamics and Statistical Mechanics (10\%)}
-
-It includes the laws of thermodynamics, thermodynamic processes, equations of state, ideal gases, kinetic theory, ensembles, statistical concepts, calculation of thermodynamics quantities, thermal expansion, and heat transfer.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Atomic Physics (10\%)}
-
-It includes properties of electrons, Bohr's model, energy quantization, atomic structure, atomic spectra, selection rules, black-body radiation, X-rays, atoms in electric fields, and atoms in magnetic fields.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Optics and wave phenomena (9\%)}
-
-It includes wave properties, superposition, interference, diffraction, geometrical optics, polarization, and Doppler effect.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Specialized topics (9\%)}
-
-It includes Nuclear physics (e.g., nuclear properties, radioactive decay, fission reactions, and fusion reactions), Particle physics (e.g., fundamental properties of elementary particles), Condensed Matter physics (e.g., crystal structure, x-ray diffraction, thermal properties, electron theory of metals, semiconductors, and superconductors), and Miscellaneous (e.g., Astrophysics, Mathematical methods, and Computer applications). 
-
-\subsection{Mathematical methods}
-
-It includes single and multivariate calculus, co-ordinate systems (rectangular, cylindrical and spherical), vector algebra and vector differential operators, Fourier series, partial differential equations, boundary value problems, matrices and determinants, and function of complex variables.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Special Relativity (6\%)}
-
-It includes introductory concepts of relativity, simultaneity, energy and momentum, four-vectors, Lorentz transformation, velocity addition, time dilation, and length contraction.
-
-\section{Laboratory methods (6\%)}
-
-It includes data and error analysis, electronics, instrumentation, radiation detection, counting statistics, interaction of charged particles with matter, lasers and optical interferometers, dimensional analysis, and fundamental applications of probability and statistics.
-
 
 \end{document}
