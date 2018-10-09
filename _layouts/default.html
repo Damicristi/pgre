@@ -55,6 +55,13 @@ textarea {
             }, false);
         }, false);
     </script>
+
+    <script type="text/javascript">
+    function gotoSet() {
+      var set = parseInt(document.querySelector('#set').value);
+      document.location = '/practices_sample/' + set + '.pdf'
+  }
+</script>
   </head>
   <body>
     <section class="page-header">
@@ -75,15 +82,21 @@ textarea {
       <a href="https://www.physicslog.com/pgre/" class="btn" target="_blank">View Web Version</a>
       <a href="https://github.com/Damicristi/PGRE-Notes-by-Damodar/tree/master/practices_sample" class="btn" target="_blank">View Sample Exams</a>
       <a href="https://projects.physicslog.com/pgre/#donate" class="btn" target="_blank">Buy me a Coffee</a>
-      <form method="get" class="btn" action="http://grephysics.net/ans/redi.php">
+ 
+    <span> pGRE Set </span>
+  <select id="set">
 		pGRE Set <select name="year" style="color:black" >
 		   <option value="8677" style="color:black" >8677</option>
 		   <option value="9277" style="color:black" >9277</option>
 		   <option value="9677" style="color:black" >9677</option>
 		   <option value="0177" style="color:black" >0177</option>
-		   	</select> | Problem <input type="text" name="prob" maxlength="3" size="3" value="1" class="text" style="color:black">
-			<input type="image" src="https://raw.githubusercontent.com/Damicristi/My-contents/master/go.gif" align="absbottom" border="0">
-	</form>
+		   <option value="0877" style="color:black" >0877</option>
+		   <option value="1777" style="color:black" >1777</option>
+		   <option value="APS1" style="color:black" >APS1</option>
+		   <option value="APS2" style="color:black" >APS2</option>
+		   	</select>
+		<button onclick="gotoSet()" style="color:black">Go</button>
+
       {% endif %}
 
       
