@@ -46,7 +46,6 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 <b> Contributors: </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
 <iframe src="https://tylerlh.github.io/github-latest-commits-widget/?username=damicristi&amp;repo=pgre&amp;limit=1" allowtransparency="true" frameborder="0" scrolling="no" width="100%"></iframe>
 
-<b> Credits: </b> [GRE Word List Flashcard](https://github.com/jackiewoodall/gre-flashcards/){:target="_blank"}, [Unofficial Github Latest Commits Widget](https://github.com/TylerLH/github-latest-commits-widget){:target="_blank"}.
 
 <b> Remember:</b> This webpage is not affiliated with [ETS](https://www.ets.org), nor is it officially endorsed (yet) by ETS.
 
