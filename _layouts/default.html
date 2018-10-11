@@ -67,7 +67,7 @@ textarea {
     function gotoQuestion() {
       var test = document.querySelector('#test').value;
       var question = document.querySelector('#question').value;
-      location.href = 'http://grephysics.net/ans/' +  test + '/' + question
+      location.href = 'http://grephysics.net/ans/' +  test + '/' + question, '_blank'
   }
 </script>
 
@@ -89,7 +89,6 @@ textarea {
       {% if site.github.is_project_page %}
       <a href="https://projects.physicslog.com/pgre/pgre-notes-damodar.pdf" class="btn" target="_blank">View Note</a> 
       <a href="https://www.physicslog.com/pgre/" class="btn" target="_blank">View Web Version</a>
-      <a href="https://projects.physicslog.com/pgre/#donate" class="btn">Buy me a Coffee</a>
  
 <form class="btn" onsubmit="gotoSet(); return false;">
 		Test <select id="set" style="color:black" >
@@ -112,7 +111,7 @@ textarea {
        <option value="9677" style="color:black" >9677</option>
        <option value="0177" style="color:black" >0177</option>
         </select>
-    Problem <input style="display: inline; max-width: 40px; padding: 4px" max="100" min="1" id="question" type="number" value="1" />
+    Problem <input style="display: inline; max-width: 40px; padding: 3px; color: black" max="100" min="1" id="question" type="number" value="1"  />
     <button onclick="gotoQuestion()" style="color:black">Go</button>
   </form>
 
