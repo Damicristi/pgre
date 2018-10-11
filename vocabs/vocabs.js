@@ -1,15 +1,19 @@
 var index = 0
 
 var dictionary = new Array(
-	"abacus",		"frame with balls for calculating",
-	"abate",		"to lessen, to subside ",
-	"abdication",	"giving up control, authority ",
+	"abase" , "to act in a servile manner, capitulate",
+	"abash" , "embarrassed",
+	"abject", "miserable, of the lower degree",
+	"abate" , "to lessen, diminish intensity, to subside, dwindle ",
+	"abdicate",	"giving up control, renouce, authority",
 	"abdomen",	"stomach and bowels",
-	"aberration",	"straying away from what is normal",
-	"abeyance",	"suspended action",
-	"abhor",	"to hate, to detest",
+	"aberrant" , "something that does not conform to standards, anomalous",
+	"aberration", "straying away from what is normal",
+	"abet", "to support, to encourage, accomplice",
+	"abeyance",	"suspended action, latency",
+	"abhor",	"to hate, to detest, execrate",
 	"abide",	"be faithful to; endure",
-	"abjure",	"promise or swear to give up",
+	"abjure",	"to give up, abidicate, abnegate",
 	"abraded",	"rubbed off, worn away by friction",
 	"abrasion",	"rubbing, scraping, wearing off",
 	"abrogate",	"repeal or annul by authority",
@@ -966,7 +970,7 @@ var dictionary = new Array(
 	"pugnacious",	"fond of, in the habit of fighting",
 	"punch",	"strike with the fist; tool for cutting holes; alc. drink",
 	"punctilious",	"precise, paying attention to trivialities",
-	"pundit",	"pedant, authority on a subject",
+	"pundit",	"intellectual, pedant, authority on a subject",
 	"pungency",	"sharpness; stinging quality",
 	"purvey",	"provide, supply",
 	"pusillanimous",	"cowardly, craven",
@@ -1264,5 +1268,12 @@ var dictionary = new Array(
 	"whimsical",	"full of odd and fanciful ideas",
 	"wince",	"show bodily or mental pain",
 	"woo",	"try to win",
-	"yarn",	"tale, story; fibers for knitting"
+	"yarn",	"tale, story; fibers for knitting",
+	"prediction", "augur, augury, forecast, forsee, forsight",
+	"prediction", "foretell, presage, prescience, prognosis",
+	"sign (warning)", "forebode, foreshadow, portend",
+	"sign (warning)", "portent, portend, premonition",
+	"threatening", "intimidate, ominous, sinister",
+	
+
 )
