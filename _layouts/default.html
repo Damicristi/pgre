@@ -1322,7 +1322,7 @@ function DisplayWord()
 		index = index - 1
 	}
 	
-	document.forms[0].display.value = dictionary[ index ]
+	document.getElementById('#vocab').value = dictionary[ index ]
 }
 
 function DisplayDefinition()
@@ -1332,7 +1332,7 @@ function DisplayDefinition()
 		index = index + 1
 	}
 	
-	document.forms[0].display.value = dictionary[ index ]
+	document.getElementById('#vocab').value = dictionary[ index ]
 }
 
 function NewWord()
@@ -1430,8 +1430,8 @@ function Flip()
 
 <br>
 
-<form onsubmit="Flip(); return false;">
-<input type="text" name="display"  readonly=true style="color:black;">
+<form id="vocab">
+<input type="text" name="display" readonly=true style="color:black;">
 <input type="button" value="Flip" onclick="Flip()" style="color:black;">
 <input type="button" value="New Word" onClick="NewWord()" style="color:black;">
 </form>
