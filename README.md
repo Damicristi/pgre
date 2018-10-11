@@ -47,7 +47,7 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 
 <b> Credits: </b> [GRE Word List Flashcard](https://github.com/jackiewoodall/gre-flashcards/){:target="_blank"}
 
-<b> Remember:</b> This site is not affiliated with [ETS](https://www.ets.org), nor is it officially endorsed (yet) by ETS.
+<b> Remember:</b> This webpage is not affiliated with [ETS](https://www.ets.org), nor is it officially endorsed (yet) by ETS.
 
 
 
