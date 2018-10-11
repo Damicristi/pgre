@@ -62,6 +62,16 @@ textarea {
       document.location = '/pgre' + '/practices_sample/' + set + '.pdf'
   }
 </script>
+
+<script type="text/javascript">
+    function gotoQuestion() {
+      var test = document.querySelector('#test').value;
+      var question = document.querySelector('#question').value;
+      location.href = 'http://grephysics.net/ans/' +  test + '/' + question
+  }
+</script>
+
+
   </head>
   <body>
     <section class="page-header">
@@ -78,12 +88,11 @@ textarea {
       <h2 class="project-tagline">By Damodar Rajbhandari</h2>
       {% if site.github.is_project_page %}
       <a href="https://projects.physicslog.com/pgre/pgre-notes-damodar.pdf" class="btn" target="_blank">View Note</a> 
-      <a href="https://pgre.physicslog.com" class="btn" target="_blank">View Forum</a>
       <a href="https://www.physicslog.com/pgre/" class="btn" target="_blank">View Web Version</a>
       <a href="https://projects.physicslog.com/pgre/#donate" class="btn">Buy me a Coffee</a>
  
 <form class="btn" onsubmit="gotoSet(); return false;">
-		Sample Set <select id="set" style="color:black" >
+		Test <select id="set" style="color:black" >
 			<option value="1777" style="color:black" >1777</option>
 		   <option value="0877" style="color:black" >0877</option>
 		   <option value="0177" style="color:black" >0177</option>
@@ -95,6 +104,17 @@ textarea {
 		   	</select>
 		<button onclick="gotoSet()" style="color:black">View</button>
 	</form>
+
+ <form class="btn" onsubmit="gotoQuestion(); return false;">
+    Test <select id="test" style="color:black" >
+       <option value="8677" style="color:black" >8677</option>
+       <option value="9277" style="color:black" >9277</option>
+       <option value="9677" style="color:black" >9677</option>
+       <option value="0177" style="color:black" >0177</option>
+        </select>
+    Problem <input style="display: inline; max-width: 40px; padding: 4px" max="100" min="1" id="question" type="number" value="1" />
+    <button onclick="gotoQuestion()" style="color:black">Go</button>
+  </form>
 
       {% endif %}
 
