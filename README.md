@@ -45,6 +45,9 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 
 <b> Contributors: </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
 
+<b> Credits: </b> [http://jackie.woodallfamily.org/gre-flashcards/](GRE Word List Flashcard){:target="_blank"}
+
+
 
 
 
