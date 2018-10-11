@@ -67,12 +67,8 @@ textarea {
     function gotoQuestion() {
       var test = document.querySelector('#test').value;
       var question = document.querySelector('#question').value;
-      location.href = 'http://grephysics.net/ans/' +  test + '/' + question
+      window.location.href = 'http://grephysics.net/ans/' +  test + '/' + question
   }
-</script>
-
-<script language="JavaScript" type="text/javascript">
-        setTimeout("window.history.go(-1)",2000);
 </script>
 
   </head>
