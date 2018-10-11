@@ -44,6 +44,7 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 <b> Contributors: </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
+<iframe src="https://tylerlh.github.io/github-latest-commits-widget/?username=damicristi&amp;repo=pgre&amp;limit=1" allowtransparency="true" frameborder="0" scrolling="no" width="100%"></iframe>
 
 <b> Credits: </b> [GRE Word List Flashcard](https://github.com/jackiewoodall/gre-flashcards/){:target="_blank"}
 
