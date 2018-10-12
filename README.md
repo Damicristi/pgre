@@ -47,6 +47,9 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 <iframe src="https://tylerlh.github.io/github-latest-commits-widget/?username=damicristi&amp;repo=pgre&amp;limit=1" allowtransparency="true" frameborder="0" scrolling="no" width="100%"></iframe>
 
 
+<b> Visitor counter:</b> This webpage counts the number of visitor visit this site since 12 October 2018.
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/0.js?i=5vu44zjrjij&amp;d=3&amp;p=1&amp;b=1&amp;w=293&amp;g=2&amp;f=arial&amp;fs=12&amp;r=0&amp;c0=362b05&amp;c1=375363&amp;c2=000000&amp;ic0=0&amp;ic1=0" async="async"></script>
+
 <b> Remember:</b> This webpage is not affiliated with [ETS](https://www.ets.org), nor is it officially endorsed (yet) by ETS.
 
 
