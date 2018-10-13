@@ -49,7 +49,7 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 
 <b> Visitor counter:</b> This webpage counts the number of visitors since 12 October 2018.
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/0.js?i=5uh5utmq8hm&amp;d=3&amp;p=1&amp;b=1&amp;w=293&amp;g=3&amp;f=arial&amp;fs=14&amp;r=0&amp;c0=362b05&amp;c1=375363&amp;c2=000000&amp;ic0=0&amp;ic1=0" async="async"></script>
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5uh5utmq8hm&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=courier_new&amp;l=1" async="async"></script>
 
 <b> Remember:</b> This webpage is not affiliated with [ETS](https://www.ets.org), nor is it officially endorsed (yet) by ETS.
 
