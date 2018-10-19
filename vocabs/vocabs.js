@@ -1,3 +1,8 @@
+/* 
+Time-stamp: <2018-10-19 18:14:13 (Damodar)>
+Author: Damodar Rajbhandari (dphysicslog@gmail.com)
+*/
+
 var index = 0
 
 var dictionary = new Array(
@@ -1400,7 +1405,23 @@ var dictionary = new Array(
 	"quash, quell, repress, scotch, subdue", "suppress, end",
 	"absolute, authoritative, autocrat, despot", "dominating",
 	"dogmatic, hegemony, imperious, martinet", "dominating",
-	"doctrinaire, totalitarian, tyrant", "dominating"
+	"doctrinaire, totalitarian, tyrant", "dominating",
+	"ephermeral, evanescent, fleeting", "short lived",
+	"transient, transitory", "short lived",
+	"chronic, incessant, inexorable", "never ending, nonstop",
+	"interminable, perennial, relentless", "never ending, nonstop",
+	"culminate, cease, terminate", "end, stop",
+	"(antonym) onset", "end, stop",
+	"fitfully,  intermitten, occasional", "irregular, periodically",
+	"spasmodic, sporadic", "irregular, periodically",
+	"allay, alleviate, ameliorate", "calm down, to make better",
+	"appease, assuage, conciliate", "calm down, to make better",
+	"extenuating, mitigate, mollify", "clam down, to make better",
+	"pacify, placate,propitiate", "clam down, to make better",
+	"solace, temper", "clam down, to make better",
+	"(antonym) exacerbate", "clam down, to make better",
+	"replenish", "fill up again",
+	"bogus", "not true, fake, fraudulent, specious"
 
 
 )
