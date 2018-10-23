@@ -1,3 +1,6 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Damicristi/pgre.svg?columns=all)](https://waffle.io/Damicristi/pgre)
+<br>
+<br>
 <b>Author voice:</b> This note keeps on updating time and again. So, I strongly recommend you viewing note instead of download.<br>
 BEST OF LUCK ON YOUR TEST!
 
@@ -31,9 +34,7 @@ BEST OF LUCK ON YOUR TEST!
 </form>
 </center>
 
-<b>Contribution Guidelines: </b> This is a community-driven project, it needs you to keep it up to date.<br>
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/Damicristi/pgre.svg?columns=all)](https://waffle.io/Damicristi/pgre)<br>
- My aim of creating this webpage is to make a full-fledged pGRE note in future by collaboration. Because I believe that sharing is caring and to have a better understanding of the topic. If you are interested in the project, I'm also definitely interested in your contribution. So that our work may be very useful who are needy of it. I consider contributor as Github user who edits my note LaTeX source code and then, does pull request. If you are new to Github then, you can learn how to create your first pull request from this free series ["How to Contribute to an Open Source Project on GitHub?"](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github){:target="_blank"}.
+<b>Contribution Guidelines: </b> This is a community-driven project, it needs you to keep it up to date. My aim of creating this webpage is to make a full-fledged pGRE note in future by collaboration. Because I believe that sharing is caring and to have a better understanding of the topic. If you are interested in the project, I'm also definitely interested in your contribution. So that our work may be very useful who are needy of it. I consider contributor as Github user who edits my note LaTeX source code and then, does pull request. If you are new to Github then, you can learn how to create your first pull request from this free series ["How to Contribute to an Open Source Project on GitHub?"](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github){:target="_blank"}.
 
 <b>Copyright license: </b> You can edit this note at [Github](https://github.com/Damicristi/pgre){:target="_blank"}. But, you are restricted by copyright to change the author name as yours during your modification in the "Notes for Physics GRE to Ace". But, you can add your name at \thanks{}, the step is shown below:
 
