@@ -1,7 +1,7 @@
 <b>Author voice:</b> This note keeps on updating time and again. So, I strongly recommend you viewing note instead of download.<br>
 BEST OF LUCK ON YOUR TEST!
 
-<b>Forum:</b> You can join our discussion forum at [pgre.physicslog.com](http://pgre.physicslog.com){:target="_blank"}. I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
+<b>Forum:</b> You can join our discussion forum at [pgre.boards.net](http://pgre.boards.net){:target="_blank"}. I want you to enjoy your stay there as much as possible. And I’m hoping that you help to maintain a welcome and pleasant atmosphere in there. 
 
 <b>Suggestions:</b> If you have any suggestions to my note, you can directly send your words either through [gitter.im/physicslog/pGRE](https://gitter.im/physicslog/pGRE){:target="_blank"} (if you have any queries regarding LaTeX source) or use the below form.
 
