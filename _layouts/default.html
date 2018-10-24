@@ -75,15 +75,32 @@ textarea {
         }
 </style>
 
+<script type="text/javascript">
+	$(function(){
+  $('.gif-img').hover(function(){
+    // on mouse enter
+     var $link = $(this).attr('src');
+     var customdata = $(this).parent().attr('href');
+     
+     $(this).data("link", $link);
+     $(this).attr('src',customdata);
+     
+  }, function(){
+    // on mouse leave
+    $(this).attr('src', $(this).data("link"));
+  });
+
+});
+
+</script>
+
 <style>
-/* Pause gif */
-.statics {
-  position:absolute;
-  background:#686a6d;
+.gif-link {
+   display: block;
 }
 
-.statics:hover {
-  opacity:0;
+img {
+  max-width:100%
 }
 </style>
 
@@ -174,7 +191,8 @@ function Flip()
   <a href="http://projects.physicslog.com">Home</a>
       </div>
       
-      <img class="statics" src="https://pgre.physicslog.com/figures/pgreNotes.png"><img class="active" src="https://pgre.physicslog.com/figures/pgreNotes.gif">
+      <a class="gif-link" href="https://pgre.physicslog.com/figures/pgreNotes.gif">
+            <img class="gif-img" src="https://pgre.physicslog.com/figures/pgreNotes.png"></a>
       <h2 class="project-tagline">By Damodar Rajbhandari</h2>
       {% if site.github.is_project_page %}
       <a href="https://pgre.physicslog.com/pgre-notes-damodar.pdf" class="btn" target="_blank">View Note</a> 
