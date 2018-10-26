@@ -19,19 +19,19 @@
 \contentsline {subsection}{\numberline {1.9}Kepler's laws of planetary motion}{11}{subsection.1.9}
 \contentsline {section}{\numberline {2}Electromagnetism (18\%)}{11}{section.2}
 \contentsline {section}{\numberline {3}Quantum Mechanics (12\%)}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Probablity of wave function}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Dimension of wave function}{12}{subsubsection.3.1.1}
-\contentsline {subsection}{\numberline {3.2}Hermitian operator}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.1}Probablity of wave function}{13}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Dimension of wave function}{13}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}Hermitian operator}{13}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Observables in-term of Hermitian operator}{13}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Dirac notation}{13}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Quantum operators}{13}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.4}Dirac notation}{14}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Quantum operators}{14}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Schr\"odinger equation}{14}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Time dependent}{14}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}Time independent}{14}{subsubsection.3.6.2}
-\contentsline {section}{\numberline {4}Thermodynamics and Statistical Mechanics (10\%)}{14}{section.4}
+\contentsline {subsubsection}{\numberline {3.6.1}Time dependent}{15}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Time independent}{15}{subsubsection.3.6.2}
+\contentsline {section}{\numberline {4}Thermodynamics and Statistical Mechanics (10\%)}{15}{section.4}
 \contentsline {section}{\numberline {5}Atomic Physics (10\%)}{15}{section.5}
-\contentsline {section}{\numberline {6}Optics and wave phenomena (9\%)}{15}{section.6}
-\contentsline {section}{\numberline {7}Specialized topics (9\%)}{16}{section.7}
-\contentsline {subsection}{\numberline {7.1}Mathematical methods}{16}{subsection.7.1}
-\contentsline {section}{\numberline {8}Special Relativity (6\%)}{16}{section.8}
+\contentsline {section}{\numberline {6}Optics and wave phenomena (9\%)}{16}{section.6}
+\contentsline {section}{\numberline {7}Specialized topics (9\%)}{17}{section.7}
+\contentsline {subsection}{\numberline {7.1}Mathematical methods}{17}{subsection.7.1}
+\contentsline {section}{\numberline {8}Special Relativity (6\%)}{17}{section.8}
 \contentsline {section}{\numberline {9}Laboratory methods (6\%)}{17}{section.9}

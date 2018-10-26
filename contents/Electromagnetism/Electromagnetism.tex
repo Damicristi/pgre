@@ -28,3 +28,25 @@ In capacitor, we have $Q = C V$ and its energy is $U = \frac{1}{2} C V^{2}$. For
 X = X_{0} e^{\frac{-t n}{RC}}
 \end{align}
 where $X$ can be $I$ or $V$ with $n = 1$, or $U$ with $n = 2$.
+
+Maxwell's equations of electromagnetism in the absence of magnetic or polarizable medium/matter (also called as Maxwell's microscopic equations) are
+
+\begin{align*}
+\textbf{Gauss's law for electricity: } \div{E} &= \frac{\rho}{\epsilon_{0}}\\
+\textbf{Gauss's law for magnetism: } \div{B} &= 0 \\
+\textbf{Faraday's law of induction: } \curl{E} &= -\pdv{B}{t} \\
+\textbf{Ampere's circuital law: } \curl{B} &= \frac{1}{c^{2}} \left( J + \pdv{E}{t} \right)
+\end{align*}
+where, $k = \frac{1}{4\pi \epsilon_{0}}$ is Coulomb's constant,  $c = \frac{1}{\sqrt{\mu_{0}\epsilon_{0}}}$ is the velocity of light, $J = \frac{\text{Current}}{\text{Area}}$ is current density, $\rho = \frac{\text{Charge}}{\text{volume}}$ is charge density, $\epsilon_{0}$ is vacuum permittivity (i.e. capability of the vacuum to permit electric field lines, and dielectric constant\footnote{also called relative permittivity $\epsilon_{r}$} $k = \frac{\epsilon}{\epsilon_{0}}$), $\mu_{0}$ is vacuum permeability (i.e. capability of the vacuum to permit magnetic field lines).
+
+Maxwell's equations of electromagnetism in the presence of magnetic or polarizable medium/matter (also called as Maxwell's macroscopic equations) are
+
+\begin{align*}
+\textbf{Gauss's law for electricity: } \div{D} &= \rho \\
+\textbf{Gauss's law for magnetism: } \div{B} &= 0 \\
+\textbf{Faraday's law of induction: } \curl{E} &= -\pdv{B}{t} \\
+\textbf{Ampere's circuital law: } \curl{H} &= J + \pdv{D}{t}
+\end{align*}
+where, $D = \epsilon_{0} E + P$ is displacement vector, $P$ is a polarization vector and $H$ is the magnetic field strength of a medium. Displacement vector can be relate as $B = \mu_{0} (H + M)$ where $M$ is magnetization. For free space, polarization vector and magnetization are zero and i.e. $D = \epsilon_{0} E$ and $B = \mu_{0} H$.
+
+If magnetic monopoles exist then, two Maxwell's equations will be wrong. i.e. Gauss's law for magnetism and Faraday's law of induction.
