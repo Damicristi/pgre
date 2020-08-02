@@ -36,10 +36,6 @@ Giving credit is a way of respecting the author’s heartfelt dedication and har
 <b> Contributors: </b> Thanks goes to all these wonderful people at ["View Contributors"](https://github.com/Damicristi/pgre/graphs/contributors){:target="_blank"}.
 <iframe src="https://tylerlh.github.io/github-latest-commits-widget/?username=damicristi&amp;repo=pgre&amp;limit=1" allowtransparency="true" frameborder="0" scrolling="no" width="100%"></iframe>
 
-Here is a throughput graph of the repository for the last few weeks:
-
-[![Throughput Graph](https://graphs.waffle.io/Damicristi/pgre/throughput.svg)](https://waffle.io/Damicristi/pgre/metrics/throughput)
-
 <b> Visitor counter:</b> This webpage counts the number of visitors since 12 October 2018.
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5uh5utmq8hm&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=courier_new&amp;l=1" async="async"></script>
